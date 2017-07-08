@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Only include vim and tmux dotfiles.
+!.gitignore
+!.tmux.conf
+!.vimrc
