@@ -1,14 +1,12 @@
-set tabstop=2
+set autoindent expandtab splitright wrap linebreak number list
+set listchars=tab:>~
+set colorcolumn=81
 set shiftwidth=2
-set autoindent
-command Q q 
-command W w 
-set splitright 
+set tabstop=2
+command Q q
+command W w
 map j gj
 map k gk
-set wrap linebreak
-set number
-set list
-set listchars=tab:>-
-set cc=86
 highlight ColorColumn ctermbg=blue
+highlight ExtraWhitespace ctermbg=red
+match ExtraWhitespace /\s\+$/
