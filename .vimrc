@@ -10,3 +10,5 @@ map k gk
 highlight ColorColumn ctermbg=blue
 highlight ExtraWhitespace ctermbg=red
 match ExtraWhitespace /\s\+$/
+au BufRead,BufNewFile *.log highlight clear ExtraWhitespace                           
+au BufRead,BufNewFile *.log set colorcolumn=0
